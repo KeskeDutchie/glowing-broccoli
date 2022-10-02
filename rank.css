@@ -9,6 +9,7 @@
 
 .SEK {
 	font-style: normal;
+	animation: y-o 5s linear infinite;
 }
 
 .SEK span {
