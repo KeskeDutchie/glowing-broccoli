@@ -1,4 +1,28 @@
 .KD {
   font-style: normal;
-  color: blue;
+	animation: rainbow 15s ease-in infinite;
+}
+
+.KD span{
+	animation: inverseRainbow 15s ease-in infinite;
+}
+
+@keyframes rainbow {
+	0%, 100% {color: red}
+	15% {color: orange}
+	30% {color: yellow}
+	45% {color: green}
+	60% {color: blue}
+	75% {color: indigo}
+	90% {color: violet}
+}
+
+@keyframes inverseRainbow {
+	0%, 100% {color: violet}
+	15% {color: indigo}
+	30% {color: blue}
+	45% {color: green}
+	60% {color: yellow}
+	75% {color: orange}
+	90% {color: red}
 }
