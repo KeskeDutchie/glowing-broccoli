@@ -1,9 +1,9 @@
 .KD {
-  font-style: normal;
+ 	font-style: normal;
 	animation: rainbow 45s ease-in infinite;
 }
 
-.KD span{
+.KD span {
 	animation: inverseRainbow 45s ease-in infinite;
 }
 
@@ -25,4 +25,23 @@
 	60% {color: yellow}
 	75% {color: orange}
 	90% {color: red}
+}
+
+.SEK {
+	font-style: normal;
+	animation: y-o 15s ease-in infinite;
+}
+
+.SEK span {
+	animation: o-y 15s ease-in infinite;
+}
+
+@keyframes y-o {
+	0%, 100% {color: yellow}
+	50% {color: orange}
+}
+
+@keyframes o-y {
+	0%, 100% {color: orange}
+	50% {color: yellow}
 }
