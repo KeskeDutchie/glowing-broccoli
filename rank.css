@@ -66,11 +66,11 @@
 }
 
 @keyframes b-p {
-	0%, 100% {color: black}
-	50% {color: purple}
+	33% {color: black}
+	67% {color: purple}
 }
 
 @keyframes b-g {
-	0%, 100% {color: black}
-	50% {color: green}
+	67% {color: black}
+	33% {color: green}
 }
