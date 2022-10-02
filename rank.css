@@ -9,11 +9,11 @@
 
 .SEK {
 	font-style: normal;
-	animation: y-o 15s linear infinite;
+	animation: y-o 5s linear infinite;
 }
 
 .SEK span {
-	animation: o-y 15s linear infinite;
+	animation: o-y 5s linear infinite;
 }
 
 .ED {
