@@ -7,6 +7,29 @@
 	animation: inverseRainbow 45s ease-in infinite;
 }
 
+.SEK {
+	font-style: normal;
+	animation: y-o 15s ease-in infinite;
+}
+
+.SEK span {
+	animation: o-y 15s ease-in infinite;
+}
+
+.ED {
+	font-style: normal;
+	animation: b-r 15s ease-in infinite;
+}
+
+.ED span {
+	animation: b-g 15s ease-in infinite;
+}
+
+.ED em{
+	font-style: normal;
+	animation: b-p 15s ease-in infinite;
+}
+
 @keyframes rainbow {
 	0%, 100% {color: red}
 	15% {color: orange}
@@ -27,15 +50,6 @@
 	90% {color: red}
 }
 
-.SEK {
-	font-style: normal;
-	animation: y-o 15s ease-in infinite;
-}
-
-.SEK span {
-	animation: o-y 15s ease-in infinite;
-}
-
 @keyframes y-o {
 	0%, 100% {color: yellow}
 	50% {color: orange}
@@ -44,4 +58,19 @@
 @keyframes o-y {
 	0%, 100% {color: orange}
 	50% {color: yellow}
+}
+
+@keyframes b-r {
+	0%, 100% {color: black}
+	50% {color: red}
+}
+
+@keyframes b-p {
+	0%, 100% {color: black}
+	50% {color: purple}
+}
+
+@keyframes b-g {
+	0%, 100% {color: black}
+	50% {color: green}
 }
