@@ -25,9 +25,9 @@
 	animation: b-g 15s ease-in infinite;
 }
 
-.ED em{
+.ED em {
 	font-style: normal;
-	animation: b-p 15s ease-in infinite;
+	color: purple;
 }
 
 @keyframes rainbow {
@@ -65,12 +65,7 @@
 	50% {color: red}
 }
 
-@keyframes b-p {
-	33% {color: black}
-	67% {color: purple}
-}
-
 @keyframes b-g {
-	67% {color: black}
-	33% {color: green}
+	0%, 100% {color: green}
+	50% {color: black}
 }
