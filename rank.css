@@ -1,19 +1,19 @@
 .KD {
  	font-style: normal;
-	animation: rainbow 45s ease-in infinite;
+	animation: rainbow 15s ease-in infinite;
 }
 
 .KD span {
-	animation: inverseRainbow 45s ease-in infinite;
+	animation: inverseRainbow 15s ease-in infinite;
 }
 
 .SEK {
 	font-style: normal;
-	animation: y-o 7s ease-in infinite;
+	animation: y-o 15s ease-in infinite;
 }
 
 .SEK span {
-	animation: o-y 7s ease-in infinite;
+	animation: o-y 15s ease-in infinite;
 }
 
 .ED {
@@ -51,13 +51,13 @@
 }
 
 @keyframes y-o {
-	0%, 100% {color: yellow}
-	50% {color: orange}
+	0%, 50%, 100% {color: yellow}
+	25%, 75% {color: orange}
 }
 
 @keyframes o-y {
-	0%, 100% {color: orange}
-	50% {color: yellow}
+	0%, 50%, 100% {color: orange}
+	25%, 75% {color: yellow}
 }
 
 @keyframes b-r {
