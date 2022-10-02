@@ -1,28 +1,28 @@
 .KD {
  	font-style: normal;
-	animation: rainbow 15s ease-in infinite;
+	animation: rainbow 15s linear infinite;
 }
 
 .KD span {
-	animation: inverseRainbow 15s ease-in infinite;
+	animation: inverseRainbow 15s linear infinite;
 }
 
 .SEK {
 	font-style: normal;
-	animation: y-o 15s ease-in infinite;
+	animation: y-o 15s linear infinite;
 }
 
 .SEK span {
-	animation: o-y 15s ease-in infinite;
+	animation: o-y 15s linear infinite;
 }
 
 .ED {
 	font-style: normal;
-	animation: b-r 15s ease-in infinite;
+	animation: b-r 15s linear infinite;
 }
 
 .ED span {
-	animation: b-g 15s ease-in infinite;
+	animation: b-g 15s linear infinite;
 }
 
 .ED em {
