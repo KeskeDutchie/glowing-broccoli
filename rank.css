@@ -18,11 +18,11 @@
 
 .ED {
 	font-style: normal;
-	animation: b-r 15s linear infinite;
+	animation: b-r 10s linear infinite;
 }
 
 .ED span {
-	animation: b-g 15s linear infinite;
+	animation: b-g 10s linear infinite;
 }
 
 .ED em {
@@ -55,11 +55,11 @@
 }
 
 @keyframes b-r {
-	0%, 100% {color: black}
-	50% {color: red}
+	0%, 50%, 100% {color: black}
+	25%, 75% {color: red}
 }
 
 @keyframes b-g {
-	0%, 100% {color: green}
-	50% {color: black}
+	0%, 50%, 100% {color: green}
+	25%, 75%, {color: black}
 }
