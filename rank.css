@@ -45,11 +45,10 @@
 }
 
 .KP {
-  	font-size: 72px;
 	font-style: normal;
 	background: -webkit-linear-gradient(left, red, #450000);
 	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    	-webkit-text-fill-color: transparent;
 }
 
 @keyframes y-o {
