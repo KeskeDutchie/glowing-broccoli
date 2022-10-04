@@ -11,7 +11,7 @@ div.chatline span [href*="\"KDCat\""] .chatname {
     	-webkit-text-fill-color: transparent;
 }
 
-div.chatline span [href*="\"Vain\""] .chatname {
+div.chatline span [href*="\"TasteTheVainbow\""] .chatname {
 	content: "Gay";
 	background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, purple);
 	-webkit-background-clip: text;
