@@ -5,7 +5,7 @@
     	-webkit-text-fill-color: transparent;
 }
 div.chatline span [href*="\"KDCat\""] .chatname {
-	background: -webkit-linear-gradient(left, #bc46bc, #00ebff);
+	background: -webkit-linear-gradient(right, #bc46bc, #00ebff);
 	-webkit-background-clip: text;
     	-webkit-text-fill-color: transparent;
 }
