@@ -4,6 +4,13 @@
 	-webkit-background-clip: text;
     	-webkit-text-fill-color: transparent;
 }
+div.chatline span [href*="\"KDCat\""].chatname {
+	color: #22c4bc;
+	font-style: normal;
+	background: -webkit-linear-gradient(left, #bc46bc, #00ebff);
+	-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+}
 
 .SEK {
 	font-style: normal;
