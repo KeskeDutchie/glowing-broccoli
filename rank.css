@@ -55,6 +55,13 @@ div.chatline span [href*="\"KDCat\""] .chatname {
     	-webkit-text-fill-color: transparent;
 }
 
+.Cat {
+	font-style: normal;
+	background: -webkit-linear-gradient(left, lime, white);
+	-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+}
+
 @keyframes y-o {
 	0%, 50%, 100% {color: yellow}
 	25%, 75% {color: orange}
