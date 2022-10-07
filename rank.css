@@ -11,13 +11,6 @@ div.chatline span [href*="\"KDCat\""] .chatname {
     	-webkit-text-fill-color: transparent;
 }
 
-div.chatline span [href*="\"TasteTheVainbow\""] .chatname {
-	content: "Gay";
-	background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, purple);
-	-webkit-background-clip: text;
-    	-webkit-text-fill-color: transparent;
-}
-
 .SEK {
 	font-style: normal;
 	animation: y-o 5s linear infinite;
@@ -29,11 +22,11 @@ div.chatline span [href*="\"TasteTheVainbow\""] .chatname {
 
 .ED {
 	font-style: normal;
-	animation: b-r 10s linear infinite;
+	animation: b-r 5s linear infinite;
 }
 
 .ED span {
-	animation: b-g 10s linear infinite;
+	animation: b-g 5s linear infinite;
 }
 
 .ED em {
@@ -79,5 +72,5 @@ div.chatline span [href*="\"TasteTheVainbow\""] .chatname {
 
 @keyframes b-g {
 	0%, 50%, 100% {color: green}
-	25%, 75%, {color: black}
+	25%, 75% {color: black}
 }
